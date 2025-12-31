@@ -1,0 +1,199 @@
+/* ===== Global Theme ===== */
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #F7F9FF; /* lavender-blue */
+  color: #2D2D3A;
+}
+/* ===== Purple Page Background ===== */
+.page {
+  background-color: #EEF0FF; /* soft lavender purple */
+  min-height: 100vh;
+  padding: 30px 20px;
+}
+.page {
+  border-radius: 12px;
+}
+
+/* ===== Page Wrapper ===== */
+.page {
+  padding: 20px;
+}
+
+/* ===== Headings ===== */
+h1 {
+  color: #2D2D3A;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #3F3F5A;
+  margin-top: 20px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  color: #5A5A75;
+  line-height: 1.6;
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #B8A6FF;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #9F8CFF;
+}
+
+/* ===== Image Cards ===== */
+.image-card {
+  background-color: #EEF0FF;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #D8DBFF;
+  width: fit-content;
+  margin: 0 auto 10px auto; /* 👈 centers the card */
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* ===== Info Cards ===== */
+.info-card {
+  background-color: #EEF0FF;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* ===== Gland Dots ===== */
+.gland-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #B8A6FF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* ===== Centered Layout ===== */
+.page {
+  text-align: center;
+}
+
+/* Center images */
+.page img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Center lists nicely */
+.page ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+/* ===== Section Spacing ===== */
+.page h1 {
+  margin-bottom: 20px;
+}
+
+.page .image-card {
+  margin-bottom: 20px;
+}
+
+.page p {
+  margin-bottom: 16px;
+}
+
+.page h3 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.page ul {
+  margin-bottom: 20px;
+}
+
+.page button {
+  margin-top: 30px;
+}
+/* ===== Home Page ===== */
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEF0FF;
+  text-align: center;
+}
+
+.home h1 {
+  margin-bottom: 30px;
+}
+/* ===== Body Page ===== */
+.body-page {
+  min-height: 100vh;
+  background-color: #EEF0FF;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.body-container {
+  position: relative;
+  width: 420px;   /* 👈 BIGGER */
+  margin: 0 auto;
+}
+
+.body-image {
+  width: 320px;   /* 👈 smaller, fits screen */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ===== Gland Button Layout ===== */
+.gland-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+..gland-buttons button {
+  min-width: 150px;
+  padding: 12px 18px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+/* ===== Home Page Main Button ===== */
+.start-button {
+  font-size: 18px;
+  padding: 16px 28px;
+  border-radius: 14px;
+  background-color: #B8A6FF;
+}
+
+.start-button:hover {
+  background-color: #9F8CFF;
+}
+/* ===== Home Page Title ===== */
+.home-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #2D2D3A;
+  letter-spacing: 1px;
+}
+.home-title {
+  text-transform: uppercase;
+}
