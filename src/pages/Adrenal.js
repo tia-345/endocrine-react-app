@@ -6,44 +6,31 @@ function Adrenal({ goBack }) {
       <h1>Adrenal Glands</h1>
 
       <div className="image-card">
-        <img
-          src={adrenalImg}
-          alt="Adrenal glands"
-          width="200"
-        />
+        <img src={adrenalImg} alt="Adrenal glands" width="200" />
       </div>
 
-      <p>
-        The adrenal glands help the body respond to stress and regulate
-        metabolism, blood pressure, and immune response.
-      </p>
+      <h3>Location</h3>
+      <p>Located on top of each kidney.</p>
 
       <h3>Hormones Secreted</h3>
       <ul>
-        <li>Adrenaline (Epinephrine)</li>
-        <li>Noradrenaline (Norepinephrine)</li>
+        <li>Adrenaline</li>
+        <li>Noradrenaline</li>
         <li>Cortisol</li>
-        <li>Aldosterone</li>
       </ul>
 
       <h3>Functions</h3>
-      <p>
-        Controls the fight-or-flight response, regulates blood pressure,
-        balances salt and water levels, and helps manage stress.
-      </p>
-<h3>Location</h3>
-<p>
-  The adrenal glands are located on top of each kidney.
-</p>
-<h3>Additional Details</h3>
-<p>
-  These glands help the body respond to stress
-  and regulate blood pressure.
-</p>
+      <ul>
+        <li>Stress response</li>
+        <li>Fight-or-flight reaction</li>
+      </ul>
 
-      <button onClick={goBack}>
-        Back
-      </button>
+      <h3>Psychological Importance</h3>
+      <p>
+        Excess cortisol is linked to anxiety, depression, and chronic stress.
+      </p>
+
+      <button onClick={goBack}>Back</button>
     </div>
   );
 }
